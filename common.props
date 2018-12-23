@@ -1,0 +1,16 @@
+<Project>
+  <Import Project="version.props" />
+  <PropertyGroup>
+    <Product>MicroElements.Design.Analyzers</Product>
+    <Copyright>2018</Copyright>
+    <Authors>micro-elements</Authors>
+    <Description>Roslyn analyzers for MicroElements.Design.Annotations. Helps to comply with model conventions.</Description>
+
+    <PackageTags>Design DDD CQRS Analyzer Architecture</PackageTags>
+    <PackageProjectUrl>https://github.com/micro-elements/MicroElements.Design.Analyzers</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/micro-elements/MicroElements.Design.Analyzers/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/micro-elements/MicroElements.Design.Analyzers</RepositoryUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/micro-elements/MicroElements/master/image/logo_rounded.png</PackageIconUrl>
+  </PropertyGroup>
+</Project>
