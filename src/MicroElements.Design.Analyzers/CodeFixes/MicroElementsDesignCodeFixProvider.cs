@@ -19,7 +19,7 @@ namespace MicroElements.Design.Analyzers
 
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(MicroElementsDesignAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(Rules.ModelShouldBeImmutable); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
